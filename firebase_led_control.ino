@@ -9,10 +9,10 @@
 #include <DHT.h>
 
 //1. Firebase veritabanı adresini, Token bilgisini ve ağ adresi bilgilerinizi giriniz.
-#define FIREBASE_HOST "ledarduino-59a5b-default-rtdb.firebaseio.com" // http:// veya https:// olmadan yazın
-#define FIREBASE_AUTH "xuG0Ioxg9W2QyMDDahlfTj3ckhvbZIVSVeR8iZP3"
-#define WIFI_SSID "Buta"
-#define WIFI_PASSWORD "Buta2016"
+#define FIREBASE_HOST "" // http:// veya https:// olmadan yazın  without http or https://
+#define FIREBASE_AUTH ""
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 #define DHTPIN D5     // what pin we're connected to
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
 DHT dht(DHTPIN, DHTTYPE);
